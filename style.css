@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.nav-left {
+  flex: 1;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1a1a1b; /* Dark charcoal for the header */
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #4a4a4a; /* Slightly lighter grey for the subtext */
+  margin-bottom: 24px;
+}
+
+.feature-list {
+  list-style-type: disc;
+  padding-left: 25px;
+  line-height: 1.6; /* Adds breathing room between lines */
+}
+
+.feature-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #1a1a1b;
+}
